@@ -9,10 +9,32 @@ body {
     justify-content: space-around;
     width: 1200px;
     /* height: 60px; */
-    background-color: #cee2f0;
-    color: #fff;
+    background-color: #f9f9ff;
+}
+
+.header-h3{
+    text-transform: capitalize;
 }
  
-.inline { 
-    display: inline;
+button{
+    display: flex;
+    padding: 8px 25px 8px 25px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #cee2f0;
+    border: 1px solid rgb(86, 39, 218);
+    border-radius: 8px;
+    background-color: rgb(86, 39, 218);
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.hero{
+    margin: auto;
+    width: 1200px;
+    min-height: 400px;
+    background-image: url(assets/fantastic-seascape-with-ripples.png);
+    background-size:auto;
+    background-repeat: no-repeat;
 }
