@@ -1,0 +1,65 @@
+/* exercises 1, 2 */
+.hello {
+    font-family: lato;
+    text-decoration: underline;
+    background: aqua;
+    width: 300px;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* exercise 5 */
+
+.blue {
+    color: blue;
+}
+.first-div  {
+    text-transform: uppercase ;
+    font-weight: bold;
+}
+.pink-white {
+    background-color: pink;
+    color: white;
+}
+.padding-marging {
+    background: lightblue;
+    margin: 30px;
+    padding: 25px;
+}
+
+/* exercise 3 */
+
+.flag {
+    background-color: lightgray; 
+    padding: 30px;
+    }
+.color {
+    display: inline-block;
+    
+}
+#box-1 {
+   
+    height: 200px;
+    width: 100px;
+    background: blue;
+
+  
+}
+#box-2 {
+   
+    height: 200px;
+    width: 100px;
+    background: white;
+    margin-right: -3px;
+    margin-left: -3px;
+}
+#box-3 {
+
+    height: 200px;
+    width: 100px;
+    background: red;
+
+}

@@ -1,0 +1,57 @@
+body {
+    font-family: lato;
+}
+
+/* header property  */
+.header {
+    margin: -8px auto -8px auto;
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    background: lightgrey;
+    }
+.inline {
+    display: inline;
+    margin: 010px 20px 10px 20px;
+    }
+
+/* add some padding from outer border */
+     h1, h3, p {
+    padding: 20px 20px 0 20px;
+    } 
+
+/* article decoration */
+article {
+    width: 1200px;
+    margin:-20px auto 0 auto;
+    background-color: aliceblue;
+    }
+ul {
+    margin-left: 50px;
+    }
+li {
+    margin-left: 30px;
+    }
+
+    /* frame for image */
+.photo {
+    margin: 30px;
+    border: 5px solid goldenrod;
+    }
+
+/* frame for header of table */
+.header-of-table {
+    width: 600px;
+    border: 1px solid black;
+    padding: 0px;
+    }
+
+    /* table decoration */
+th, td {
+    border: 1px solid black;
+    }
+table {
+    width: 800px;
+    margin-bottom: 50px;
+    }  
