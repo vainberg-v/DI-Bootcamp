@@ -1,0 +1,46 @@
+*{
+    background-color: lightgray;
+}
+
+.grid-wrapper{
+
+    display: grid;
+    width: 60%;
+
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    grid-template-areas:
+    "header header header header"
+    "aside article article artucle"
+    "footer footer footer footer"
+
+}
+
+header{
+    grid-area: header;
+    background-color: pink;
+
+}
+
+article{
+    grid-area: article;
+    background-color: aqua;
+}
+
+article h1{
+    background-color:aqua 
+}
+
+aside{
+    grid-area: aside;
+    background-color: blanchedalmond;
+}
+
+aside li{
+    background-color: blanchedalmond;
+}
+
+footer{
+    grid-area: footer;
+    background-color: bisque;
+}

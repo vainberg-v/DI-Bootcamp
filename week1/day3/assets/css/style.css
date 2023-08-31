@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .about, .skills, .contact {
+    padding: 2rem;
+  }
+  
+  .skills ul {
+    list-style: none;
+  }
+  
+  .contact form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  footer a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media screen and (min-width: 768px) {
+    .about, .skills, .contact {
+      padding: 4rem;
+    }
+    
+    .contact form {
+      grid-template-columns: 1fr 1fr;
+    }
+  }

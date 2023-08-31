@@ -16,7 +16,7 @@ body {
     text-transform: capitalize;
 }
  
-button{
+.signin{
     display: flex;
     padding: 8px 25px 8px 25px;
     align-items: center;
@@ -31,10 +31,62 @@ button{
 }
 
 .hero{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-around; */
     margin: auto;
     width: 1200px;
     min-height: 400px;
     background-image: url(assets/fantastic-seascape-with-ripples.png);
     background-size:auto;
     background-repeat: no-repeat;
+    color: #fff;
+}
+
+.overlay{ 
+    display: flexbox;
+    align-items: center;
+     justify-content: space-around; 
+    position: relative; /* Абсолютное позиционирование для оверлея */
+    top: 0;
+    left: 0;
+    width: 1200px;
+    min-height: 400px;
+    background-color: rgba(122, 123, 123, 0.679);
+ 
+}
+.slogan,  {
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: row; /* Расположение в строку */
+    align-items: center;
+}
+
+
+.advantages{
+    background-color: #f9f9ff;
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.iconbox{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black;
+    border-radius: 16px; */
+    width: 200px;
+    text-align: center;
+}
+
+.icon{
+    font-size: 200%;
+    color: rgb(86, 39, 218) ;
 }

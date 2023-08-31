@@ -1,0 +1,101 @@
+body{
+    
+    font-family: lato;
+    width: 80%;
+    margin: auto;
+  }
+
+
+
+  /* navigation bar */
+.navbar{
+    position: sticky;
+    top: 10px;
+    margin: auto;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+
+.logo{
+  
+    width: 75%;
+    font-size: 40px;
+    color: white;
+    margin: 20px 20px 20px 30px;
+}
+
+/* navbarlink decoration and position */
+.our-product{
+    font-size: 20px;
+    color: white;
+  
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.login{
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+ 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+  
+/* row for items box */
+.row {
+    position: relative;
+    width: 100%;
+    margin: auto;
+ 
+}
+
+
+h3{
+    text-transform: capitalize;
+    color: rgb(59, 56, 56);
+}
+
+ img{
+    width: 100%;
+} 
+
+.item-show{
+
+    float: left;
+    width: 22%;
+    margin: 20px;
+    text-align: center;
+}
+
+.price{
+    
+    font-size: 25px;
+    color: grey;
+} 
+
+.old-price{
+    font-size: 16px;
+    color: grey;
+    margin-left: 10px;
+    text-decoration-line: line-through;
+}
+
+button{
+    font-size: 20px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+/* footer decoration */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    color: black;
+    text-align: center;
+  }

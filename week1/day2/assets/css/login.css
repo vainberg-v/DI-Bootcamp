@@ -1,0 +1,112 @@
+body{
+  font-family: lato;
+  margin: 40px auto;
+  width: 60%;
+}
+.wrap{
+    
+    width: 100%;
+}
+
+.left{
+    padding: 0px 40px 0px 40px;
+    background-color: #fafafa;
+    float: left ;
+    
+    width: 45%;
+    height: 500px;
+    text-align: center;
+}
+
+
+
+.field {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 0 15px 0;
+    background-color: #eeeeee;
+    color: #b9b9b9;
+    border: none;
+    width: 100%;
+}
+
+.remember {
+    margin-right: 50%;
+    
+}
+
+.login{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 0;
+    background-color: #9c27b0;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+}
+
+.right{
+    text-align: center;
+    color: white;
+    /* padding: 40px; */
+    float: left;
+    width: 45%;
+    height: 500px; 
+    background: linear-gradient(135deg, #21212d, #9627aa )       
+}
+
+.line {
+    display: inline-block;
+    width: 30%; /* Ширина линии */
+    height: 1px;
+    background-color: #919191;
+    vertical-align: middle; /* Выравнивание линии по центру относительно текста */
+  }
+
+.text {
+    display: inline-block;
+    padding: 0 15px; /* Отступы для текста */
+    vertical-align: middle; /* Выравнивание текста по центру относительно линии */
+    color: #919191;
+  }  
+
+  .icon-style{
+    color: #919191;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+.user-plus{
+  margin-top: 100px;
+  font-size: 60px;
+}
+
+/* .register{
+  padding: 5px 10px 5px 10px;
+  border: 1px solid white; 
+}*/
+.button-text{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 32%;
+  margin: auto;
+  padding: 15px 15px 15px 15px;
+  border: 1px solid white;
+  border-radius: 27px;
+  
+}
+
+.arrow{
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+
+
+
+ 
